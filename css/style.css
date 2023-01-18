@@ -27,20 +27,20 @@ p{
 }
 
 .conteudo{
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height:100vh;
-    width:100%;
-    top:0;
+    max-width:1440px;
+    margin:0 auto;
 }
 
 .principal{
-    margin:0 auto;
+    margin:25px;
     background: var(--white);
     max-width:325px;
-    transform: translateY(-50%);
     border-radius:12px;
-    position: relative;
-    top:50%;
 }
 
 .principal__text{
@@ -169,4 +169,11 @@ p{
     .principal__text button{
         padding:12px;
     }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:0 30px;
 }
