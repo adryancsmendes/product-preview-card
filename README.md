@@ -22,7 +22,7 @@ O desafio aqui foi construir esse componente de classificação interativa, deix
 ### Screenshot
 
 
-![](/images/image-product-desktop.jpg)
+![](/design/desktop-design.jpg)
 
 
 ### Links
