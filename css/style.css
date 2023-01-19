@@ -20,6 +20,15 @@ html{
 
 body{
     background:var(--cream);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{
@@ -118,11 +127,6 @@ p{
 
 .principal button img{
     margin-right:10px;
-}
-
-.attribution{
-    position: absolute;
-    bottom:0;
 }
 
 @media screen and (min-width:768px){
